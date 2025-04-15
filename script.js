@@ -6,7 +6,7 @@ const dashboard = document.querySelector('.dashboard')
 
 
 dashboard.addEventListener("click", function(e) {
-    // e.preventDefault();
+    // e.preventDefault(); 
     dashboard.classList.add('active')
     market.classList.remove('active')
     
